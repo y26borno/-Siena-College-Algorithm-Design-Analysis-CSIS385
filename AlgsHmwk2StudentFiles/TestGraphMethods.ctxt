@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TestGraphMethods
+comment0.text=\r\n\ Methods\ for\ testing\ lab\ practical\ code.\r\n\ \r\n
+comment1.params=
+comment1.target=void\ testAdjListsGraphMethods()
+comment2.params=
+comment2.target=void\ testAdjMatrixGraphMethods()
+comment3.params=
+comment3.target=void\ testAll()
+numComments=4

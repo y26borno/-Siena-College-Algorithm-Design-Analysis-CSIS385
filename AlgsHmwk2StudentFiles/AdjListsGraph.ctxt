@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=AdjListsGraph
+comment1.params=v
+comment1.target=AdjListsGraph(int)
+comment2.params=s\ d
+comment2.target=void\ addDirectedEdge(int,\ int)
+comment2.text=\r\n\ \ Adds\ a\ directed\ edge\ from\ vertex\ s\ to\ vertex\ d\r\n\ \ @param\ s\ source\ vertex\ of\ edge\r\n\ \ @param\ d\ destination\ vertex\ of\ edge\r\n
+comment3.params=v1\ v2
+comment3.target=void\ addEdge(int,\ int)
+comment3.text=\r\n\ \ Adds\ an\ udirected\ edge\ between\ vertex\ v1\ and\ v2\r\n\ \ @param\ v1\ one\ vertex\ of\ the\ edge\r\n\ \ @param\ v2\ the\ other\ vertex\ of\ the\ edge\r\n
+comment4.params=
+comment4.target=int\ numEdges()
+comment4.text=\r\n\ \ Returns\ the\ number\ of\ (undirected)\ edges\ in\ the\ graph\r\n\ \ @return\ number\ of\ (undirected)\ edges\ in\ the\ graph\ \r\n
+comment5.params=v
+comment5.target=int\ degree(int)
+comment5.text=\r\n\ \ Returns\ the\ number\ of\ (undirected)\ edges\ adjacent\ to\ \r\n\ \ vertex\ v.\ \ If\ v\ is\ not\ a\ valid\ vertex\ number,\ returns\ -1.\r\n\ \ @return\ number\ of\ (undirected)\ edges\ adjacent\ to\ vertex\ v\ \r\n
+comment6.params=
+comment6.target=boolean\ hasEulerCircuit()
+comment6.text=\r\n\ \ This\ method\ determines\ if\ the\ graph\ contains\ an\ Euler\ circuit.\ \r\n\ \ You\ may\ assume\ that\ the\ graph\ calling\ the\ method\ is\ a\ connected\ graph.\r\n\ \ @return\ true\ if\ the\ graph\ contains\ an\ Euler\ circuit,\ and\ false\ otherwise\r\n
+comment7.params=
+comment7.target=boolean\ isRingGraph()
+comment7.text=\r\n\ \ A\ ring\ graph\ is\ an\ undirected\ graph\ in\ which\ the\ edges\ connect\ the\ vertices\ \r\n\ \ into\ a\ single\ cycle,\ or\ a\ ring.\ In\ such\ a\ graph,\ each\ vertex\ has\ degree\ two,\ \r\n\ \ and\ the\ total\ number\ of\ (undirected)\ edges\ is\ |V|.\r\n\ \ This\ method\ returns\ true\ if\ the\ graph\ is\ a\ ring\ graph,\ and\ false\ otherwise.\r\n\ \ @return\ true\ if\ the\ graph\ is\ a\ ring\ graph,\ and\ false\ otherwise\r\n
+numComments=8
